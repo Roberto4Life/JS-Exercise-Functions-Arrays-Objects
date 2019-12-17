@@ -39,10 +39,13 @@ function addNumbers(num1, num2) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(/* code here */) {
-  /* code here */
+function makePersonObject(id, name, email) {
+  id: "1"
+  name: "luis"
+  email: "luis@luis"
+  return {id, name, email}
 }
-
+console.log(makePersonObject)
 /**
  * ### Challenge `getName`
  * 
@@ -244,9 +247,9 @@ function getGermanCars(/* code here */) {
  *   return num * 2
  * }
 */
-const sum = null; // code here!
-const addFive = null; // code here!
-const argTimesTwo = null; // code here!
+const sum = null; (a, b) => {return a + b ;} 
+const addFive = null; (num) => {return num + 5;}
+const argTimesTwo = null; (num) => {return num * 2}
 
 /**
  * ### Challenge `carMaker`
